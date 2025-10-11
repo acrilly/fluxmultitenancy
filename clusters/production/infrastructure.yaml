@@ -18,7 +18,7 @@ spec:
     - patch: |
         - op: replace
           path: /spec/values/ingress/hosts/0/host
-          value: "dashboard.staging"
+          value: "dashboard.production"
       target:
         kind: HelmRelease
         name: ww-gitops
