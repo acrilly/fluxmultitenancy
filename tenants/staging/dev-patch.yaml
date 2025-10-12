@@ -5,4 +5,4 @@ metadata:
   name: dev
   namespace: apps
 spec:
-path: ./kustomize/staging # it is pointing to the dev repositrory. May be the dev team has more than one environment(staging, production, etc.)
+  path: ./kustomize/staging # it is pointing to the dev repositrory. May be the dev team has more than one environment(staging, production, etc.)
