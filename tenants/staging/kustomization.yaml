@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - ../base/dev
 patches:
-  -path: dev-patch.yaml
+  - path: dev-patch.yaml
